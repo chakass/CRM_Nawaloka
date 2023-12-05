@@ -1,0 +1,45 @@
+<div class="outer">
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-2.col-lg-5.col-md-7.offert-lg-4 offset-md-3">
+                <div class="panel border bg-white">
+                    <div class="pannel-heading">
+                        <h3 class="pt-3 font-weight-bold">Login</h3>
+                    </div>
+                    <div class="panel-body p-3">
+                        <form >
+                            <div class="form-group pt-5">
+                                <div class="input-field">
+                                    <span class="fa fa-user p-2"></span>
+                                    <input type="text" placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="form-group pt-3">
+                                <div class="input-field">
+                                    <span class="fa fa-lock p-2"></span>
+                                    <input [type]="type" placeholder="Password">
+                                    <span (click)="hideShowPass()"class="fa {{eyeIcon}}"></span>
+                                </div>
+                            </div>
+                            <div class="form-inline fr mt-4">
+                                <a id="forget" class="font-weight-bold">Forget Password?</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block mt-4 w-100">Login</button>    
+                            <div class="text-center pt-4 text-muted">Don't have account? <a id="forget" routerLink="/signup">signup</a></div>
+
+                        </form>
+                    </div>
+                    <div class="mx-3 my-2 py-2 bordert">
+                        <div class="text-center py-3">
+                            <a href="https://www.facebook.com/" targets="_blank" class="px-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt=""></a>
+                            <a href="https://www.google.com/" targets="_blank" class="px-2"><img src="https://image.similarpng.com/very-thumbnail/2020/06/Logo-google-icon-PNG.png" alt=""></a>
+                            <a href="https://www.github.com/" targets="_blank" class="px-2"><img src="https://banner2.cleanpng.com/20180326/gxq/kisspng-github-computer-icons-icon-design-github-5ab8a31e334e73.4114704215220498222102.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
